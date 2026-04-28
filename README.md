@@ -28,10 +28,8 @@ sections/
   utils_and_functions.py            Shared RK4 + helpers
   performance_analysis.py           RK4 timing/accuracy analysis
   analyze_poincare_fidelity.py      Compare Poincaré sections across resolutions
-  COMPLETE_PROJECT_REFERENCE.py     End-to-end runner
+  COMPLETE_PROJECT_REFERENCE.py     ← Canonical entry point. Full project code.
   COMPREHENSIVE_ANALYSIS_PUBLICATION.py    Publication-quality analysis
-
-Copy_of_Project1_NonlinearChaoticSystem.ipynb    Original notebook
 
 # Generated figures (kept in repo)
 Benchmarking_Rk4.png
@@ -61,16 +59,17 @@ docs/
 ## How to run
 
 ```
-pip install numpy scipy matplotlib jupyter
+pip install numpy scipy matplotlib
 cd sections
-python 01_mass_on_spring_benchmark.py     # quick sanity check
-python 09_poincare_section.py             # the headline plot
+python COMPLETE_PROJECT_REFERENCE.py      # full project, end to end
 ```
 
-For the full notebook walkthrough:
+To run individual analyses:
 
 ```
-jupyter notebook Copy_of_Project1_NonlinearChaoticSystem.ipynb
+python 01_mass_on_spring_benchmark.py     # RK4 sanity check
+python 09_poincare_section.py             # headline Poincaré section
+python 11_bifurcation_diagram.py          # bifurcation diagram
 ```
 
 ## Notes
