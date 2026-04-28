@@ -1,0 +1,10 @@
+{
+  "script": "14_poincare_super_resolution.py",
+  "periods": 100000,
+  "steps_per_period": 250,
+  "total_steps": 25000000,
+  "points_extracted": 99900,
+  "integration_time_sec": 492.63015645899577,
+  "peak_memory_mb": 27.9375,
+  "points_per_second": 202.78904709788145
+}

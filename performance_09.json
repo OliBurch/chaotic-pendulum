@@ -1,0 +1,10 @@
+{
+  "script": "09_poincare_section.py",
+  "periods": 50000,
+  "steps_per_period": 100,
+  "total_steps": 5000000,
+  "points_extracted": 49900,
+  "integration_time_sec": 100.16869179200148,
+  "peak_memory_mb": 27.859375,
+  "points_per_second": 498.15964556686504
+}

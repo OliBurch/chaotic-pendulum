@@ -1,0 +1,10 @@
+{
+  "script": "13_poincare_low_resolution.py",
+  "periods": 25000,
+  "steps_per_period": 25,
+  "total_steps": 625000,
+  "points_extracted": 24900,
+  "integration_time_sec": 7.653951708984096,
+  "peak_memory_mb": 80.875,
+  "points_per_second": 3253.2214660791165
+}

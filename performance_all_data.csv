@@ -1,0 +1,3 @@
+script,periods,steps_per_period,total_steps,points_extracted,integration_time_sec,peak_memory_mb,points_per_second
+09_poincare_section.py,50000,100,5000000,49900,64.313059084001,51.125,775.8921859839428
+13_poincare_low_resolution.py,50000,25,1250000,49900,15.414108209020924,76.484375,3237.293998675617

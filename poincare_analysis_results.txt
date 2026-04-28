@@ -1,0 +1,106 @@
+
+======================================================================
+POINCARÉ SECTION TOPOLOGICAL FIDELITY ANALYSIS
+======================================================================
+
+[SCRIPT 13] Low Resolution Poincaré Section
+----------------------------------------------------------------------
+  Integrating 625000 steps (~37313 periods)... Done!
+✓ Total Points Extracted: 24900
+✓ Driving Periods After Transient: 24900
+✓ Points per Period: 1.00
+
+[SCRIPT 09] Regular Resolution Poincaré Section
+----------------------------------------------------------------------
+  Integrating 5000000 steps (~74627 periods)... Done!
+✓ Total Points Extracted: 49900
+✓ Driving Periods After Transient: 49900
+✓ Points per Period: 1.00
+
+[SCRIPT 14] Super-High Resolution Poincaré Section
+----------------------------------------------------------------------
+  Integrating 25000000 steps (~149254 periods)... Done!
+✓ Total Points Extracted: 99900
+✓ Driving Periods After Transient: 99900
+✓ Points per Period: 1.00
+
+======================================================================
+SPATIAL ANALYSIS
+======================================================================
+
+Focus Region θ∈(1.3, 1.8), ω∈(-0.4, 0.3):
+  Script 13: 2764 points (11.1%)
+  Script 09: 5660 points (11.3%)
+  Script 14: 11407 points (11.4%)
+  Density ratio (14/13): 4.13×
+
+Phase Space Coverage (20×20 grid):
+  Script 13: 22.8%
+  Script 09: 22.2%
+  Script 14: 22.2%
+
+======================================================================
+TOPOLOGICAL PROPERTIES
+======================================================================
+
+Estimating Correlation Dimension (D_2)...
+  Script 13: D_2 ≈ 0.791
+  Script 09: D_2 ≈ 0.802
+  Script 14: D_2 ≈ 0.824
+  Convergence (13→14): 0.033 (lower = better convergence)
+
+Estimating Lyapunov Exponent (chaos indicator)...
+  Script 13: λ ≈ 0.4262 (chaotic)
+  Script 09: λ ≈ 0.3240 (chaotic)
+  Script 14: λ ≈ 0.4655 (chaotic)
+
+Clustering Analysis (r=0.15)...
+  Script 13: 2 clusters found
+    Top 3 sizes: [14757, 10143]
+    Average cluster size: 12450.0
+  Script 09: 2 clusters found
+    Top 3 sizes: [30339, 19561]
+    Average cluster size: 24950.0
+  Script 14: 2 clusters found
+    Top 3 sizes: [60218, 39682]
+    Average cluster size: 49950.0
+
+======================================================================
+TOPOLOGICAL FIDELITY ASSESSMENT (09 vs 12 vs 14)
+======================================================================
+
+┌─────────────┬──────────┬──────────┬──────────┐
+│ Property    │ Low │ Regular │ High│
+├─────────────┼──────────┼──────────┼──────────┤
+│ Total Pts   │    24900 │    49900 │    99900 │
+│ D_2         │    0.791 │    0.802 │    0.824 │
+│ λ estimate  │   0.4262 │   0.3240 │   0.4655 │
+│ Coverage %  │     22.8 │     22.2 │     22.2 │
+└─────────────┴──────────┴──────────┴──────────┘
+
+1. Point Density Improvement:
+   13/09 ratio: 2.00×
+   14/09 ratio: 4.01×
+   ✓✓ Excellent density in Script 14
+
+2. Dimension Convergence:
+   (14-13) agreement: 96.73%
+   (14-09) agreement: 97.79%
+   ✓✓ Excellent convergence - dimension stable across all resolutions
+
+3. Phase Space Coverage:
+   09: 22.8% → 14: 22.2% (+-0.5%)
+   ⚠ Coverage similar to Script 13
+
+4. Chaos Characterization Consistency:
+   All positive Lyapunov: True
+   ✓✓ All resolutions confirm chaotic behavior
+
+======================================================================
+TOPOLOGICAL FIDELITY SCORE: 80/100
+======================================================================
+✓✓ VERY GOOD: Strong convergence across all resolutions
+   Script 14 suitable for rigorous dynamical systems analysis
+
+======================================================================
+
